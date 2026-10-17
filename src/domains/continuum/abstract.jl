@@ -43,7 +43,7 @@ Solution: Formulations are dimensionality (shared), theories are physics (domain
 
 ```julia
 # Domain-agnostic formulations
-ThreeDimensional()              # Used by: continuum, heat, poisson, acoustics
+ThreeDimensional()        # Used by: continuum, heat, poisson, acoustics
 Axisymmetric()            # Used by: continuum, heat, etc.
 
 # Domain-specific theories (in domains/*/types.jl)
